@@ -1,0 +1,21 @@
+.container__small-card {
+  /* border: solid #eee 2px; */
+  border-radius: .5rem;
+  margin: 1rem;
+ }
+
+.container__small-card-content {
+  display: flex;
+  flex-direction: row;
+}
+
+ .small-card__photo > img {
+  width: 40%;
+  min-width: 15rem;
+  margin: 1rem;
+ }
+
+
+ .small-card__text {
+
+ }
