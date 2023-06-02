@@ -2,7 +2,7 @@
   <div class="container__small-card-content">
     <div class="small-card__photo">
       <img
-        src="https://www.institutioner.dk/img/img_container.png"
+        src="{{photoCover}}"
         alt="imagem placeholder"
         height="265px"
         width="auto"
@@ -10,17 +10,17 @@
       >
     </div>
 
-    <div class="small-card__text">
-      <div class="small-card__title">
+    <div class="small-card__description">
+      <div class="small-card__public-date">
         <h6>
-          <a href="#">Noticia Nova</a>
+          {{cardDate}}
         </h6>
       </div>
 
-      <div class="small-card__description">
+      <div class="small-card__paragrafo">
         <p>
           <a href="#">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat quasi laboriosam pariatur voluptatem esse eum impedit dolorum nisi, error ipsum libero qui assumenda consequatur cupiditate mollitia distinctio quaerat. Dignissimos, laboriosam.
+            {{cardParagrafo}}
           </a>
         </p>
       </div>

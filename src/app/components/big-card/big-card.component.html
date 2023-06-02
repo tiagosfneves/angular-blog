@@ -1,7 +1,7 @@
 <div class="container__big-card">
   <div class="big-card__photo">
     <img
-      src="https://www.institutioner.dk/img/img_container.png"
+      src="{{ photoCover }}"
       alt="imagem placeholder"
       height="265px"
       width="auto"
@@ -11,22 +11,20 @@
   </div>
 
   <div class="big-card__public-date">
-    <h6>Publicado em <span>01/01/2001</span></h6>
-
+    <h6>{{ cardDate }}</h6>
   </div>
 
   <div class="big-card__title">
     <h1>
-      <a href="#">Noticia Nova</a>
+      <a href="#">{{ cardTitle }}</a>
     </h1>
 
   </div>
 
-  <div class="big-card__description">
+  <div class="big-card__paragrafo">
     <p>
       <a href="#">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat quasi laboriosam pariatur voluptatem esse eum impedit dolorum nisi, error ipsum libero qui assumenda consequatur cupiditate mollitia distinctio quaerat. Dignissimos, laboriosam.
-
+        {{ cardParagrafo }}
       </a>
 
     </p>

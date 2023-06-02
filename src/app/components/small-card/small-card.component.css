@@ -1,21 +1,31 @@
+.container__small-card-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card__public-date > h6 {
+  color: #555;
+}
+
 .container__small-card {
   /* border: solid #eee 2px; */
   border-radius: .5rem;
   margin: 1rem;
  }
 
-.container__small-card-content {
-  display: flex;
-  flex-direction: row;
-}
-
  .small-card__photo > img {
   width: 40%;
-  min-width: 15rem;
+  height: auto;
+  min-width: 10rem;
   margin: 1rem;
  }
 
+ .container__small-card__separator > hr {
+  border: solid #222 1px;
+ }
 
- .small-card__text {
-
+.small-card__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
  }

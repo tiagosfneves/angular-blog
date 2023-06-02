@@ -15,14 +15,19 @@
 
 .big-card__photo > img {
   width: 100%;
+  padding-bottom: .5rem;
+}
+
+.big-card__public-date > h6 {
+  color: #555;
 }
 
 .big-card__title > h6 {
-  margin-top: .5rem;
+  margin: .5rem;
 }
 
 .big-card__title > h1 {
-  margin-top: .5rem;
+  margin: .5rem 0;
   font-size: 2rem;
 }
 
