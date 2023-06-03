@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-blog": {
+    "angular-blog-dois": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-blog",
+            "outputPath": "dist/angular-blog-dois",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-blog:build:production"
+              "browserTarget": "angular-blog-dois:build:production"
             },
             "development": {
-              "browserTarget": "angular-blog:build:development"
+              "browserTarget": "angular-blog-dois:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-blog:build"
+            "browserTarget": "angular-blog-dois:build"
           }
         },
         "test": {
@@ -99,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "cc06ec7d-db34-44e5-ae49-ef7f96de5bb7"
+    "analytics": false
   }
 }
