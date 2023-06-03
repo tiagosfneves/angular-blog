@@ -2,39 +2,35 @@
   margin: 1rem;
   padding: 1rem;
 
-/*   border: solid #eee 2px; */
+  /* border: solid #eee 2px; */
   border-radius: .5rem;
   width: 30rem;
-  height: 30rem;
+  height: auto;
 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+
 }
 
 .big-card__photo > img {
+  border: solid #eee .5rem;
+  border-radius: .5rem;
   width: 100%;
-  padding-bottom: .5rem;
+  height: 100%;
+
 }
 
 .big-card__public-date > h6 {
   color: #555;
+  padding: .5rem 0 0 0;
 }
 
-.big-card__title > h6 {
-  margin: .5rem;
-}
-
-.big-card__title > h1 {
+.big-card__title > h2 {
   margin: .5rem 0;
   font-size: 2rem;
 }
 
-.big-card__description {
-  margin-top: .5rem;
-}
-
-.big-card__description > p > a {
+.big-card__paragrafo > p > a {
   color: #555;
 }

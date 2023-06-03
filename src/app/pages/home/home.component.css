@@ -1,9 +1,10 @@
 .container__articles {
   margin: .5rem;
-  border: solid #fff .2rem;
+/*   border: solid #fff .2rem; */
 
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
 

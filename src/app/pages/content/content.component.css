@@ -10,18 +10,21 @@
   align-items: center;
 }
 
-/* .content__cover {
-  border: 1px solid #eee;
-} */
 
 .content__cover > img {
-  /* border: 1px solid #ea0; */
-  border-radius: 5px;
+  border-radius: .5rem;
+  border: .5rem solid #eee;
   width: 500px;
   min-width: 500px;
   height: 300px;
 }
 
+.content__title > h1 {
+  margin: 1rem 10rem ;
+
+}
+
 .content__description > p {
+  margin: 2rem 10rem ;
   color: #888;
 }
